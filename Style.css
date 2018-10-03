@@ -1,0 +1,116 @@
+
+
+p {font-family:Arial,Helvetica; font-size:14px; font-weight:normal}
+b {font-size:25px; font-weight:bold}
+
+/*---------------------navigation bar-------------------------------*/
+#menu a{
+    float: center;
+    width: 100%;
+    
+    margin: 0 auto;
+    list-style-type: none;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: maroon;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+#menu a:hover {
+    background-color: #D05050;
+}
+/*-----------------------------------------------------------------*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+article {
+    width: 460px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 0;
+	background: white;
+	
+}
+
+
+
+
+ @import url("reset.css");
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #CCFFFF
+}
+
+
+
+
+
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#headerwrap {
+    width: 825px;
+    float: center;
+    margin: 0 auto;
+    background: #000000;
+}
+#titlewrap {
+    width: 825px;
+    float: center;
+    margin: 0 auto;
+    background: #800000;
+}
+
+#header {
+    height: 50px;
+    background: #FF0000;
+    border-radius: 10px;
+    border: 1px solid #eb521f;
+    margin: 5px;
+}
+
+
+
+
+#contentwrap {
+    width: 850px;
+    float: right;
+    margin: 0 auto;
+}
+
+
+#rightcolumnwrap {
+	width: 300px;
+    padding: 10px;
+    margin: 0;
+	float: right;
+	
+}
+
+#rightcolumn {
+    background: #800000;
+    border-radius: 10px;
+    margin: 5px;
+	border: 5px #800000;
+	
+}
+
+
